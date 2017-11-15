@@ -14,10 +14,10 @@ app.get('/',function(req,res){
 });
 
 app.get('/finance',function(req,res){
-	res.json(dataModule.finance);
+	res.json(dataModule);
 });
 app.get('/insurance',function(req,res){
-	res.json(dataModule.insurance);
+	res.json(dataModule);
 });
 
 app.listen(port,function(){
